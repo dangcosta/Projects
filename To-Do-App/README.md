@@ -21,5 +21,3 @@ Other mistakes I noticed when watching Colt's solution: I created the To-Do list
 I also learned about the bubbling principle which states that "when an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors". Colt's solution for the bubbling principle: function(event){event.stopPropagation()}. Thus, only the function of the child will be triggered.
 
 Some of these differences between my version and Colt's were signaled on the code
-
-/* Things I learned: the importance of commenting the code. Specially what each function should do (specially to redo after a while). the differences between spand, li, ul - and to pick the right one. Stop propagation effect: when you set a click event to an element and you set a click event to its parent when you click in the element you will also trigger the click event of its parent. Bubble. Solution: function(event){event.stopPropagation()}*/
